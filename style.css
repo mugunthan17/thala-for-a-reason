@@ -1,0 +1,87 @@
+body{
+    background-color: #FED503;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title{
+    text-align: center;
+    color: #2E3CBD;
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.reason-thala{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.reason-nothing{
+    display: none;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+#reason{
+    background-color: white;
+    border: 2px solid #2E3CBD;
+    height: 40px;
+    width: 700px;
+    font-size: 1rem;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#chkBtn{
+    height: 46px;
+    width: 100px;
+    border: 2px solid #2E3CBD;
+    background-color: #2E3CBD;
+    color: white;
+    margin-left: 10px;
+}
+
+#chkBtn:hover {
+    cursor: pointer;
+    border: 1px solid #6672D8;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #title{
+        text-align: center;
+        color: #2E3CBD;
+        font-size: 1.8rem;
+        margin: 30px;
+    }
+    .form{
+        display: block;
+        text-align: center;
+    }
+    #reason{
+        height: 40px;
+        width: 300px;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    #chkBtn{
+        height: 46px;
+        width: 310px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    #reason-nil{
+        font-size: 1.5rem;
+    }
+    .reason-thala{
+        margin-top: 20px;
+    }
+    
+}
